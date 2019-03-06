@@ -4,7 +4,6 @@ general:
   cfCredentialsId: CF_DEPLOYMENT_ICF_SECURITY
   cfOrg: ICF
   gitSshKeyCredentialsId: 0710ad53-cdc3-4bc2-814f-65c9be6ce68e
-  productiveBranch: 'none'
 steps:
   writeInflux:
     influxServer: jenkins
