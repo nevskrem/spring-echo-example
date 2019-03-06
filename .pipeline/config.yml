@@ -4,9 +4,7 @@ general:
   cfCredentialsId: CF_DEPLOYMENT_ICF_SECURITY
   cfOrg: ICF
   gitSshKeyCredentialsId: 0710ad53-cdc3-4bc2-814f-65c9be6ce68e
-  gitUserName: nevskrem
-  gitUserEMail: s.merk@sap.com
-  gitSshUrl: 'nevskrem@github.com:nevskrem/spring-echo-example.git'
+  commitVersion: ''
 steps:
   writeInflux:
     influxServer: jenkins
