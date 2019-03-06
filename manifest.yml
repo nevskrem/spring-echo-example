@@ -4,7 +4,7 @@ applications:
 - name: spring-echo
   memory: 800M
   host: spring-echo
-  path: target/com.waiamu.open.spring-echo-example-1.0.0.jar
+  path: spring-echo-example.jar
   buildpack: java_buildpack
   timeout: 180
 
