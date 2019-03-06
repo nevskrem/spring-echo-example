@@ -12,5 +12,5 @@ stages:
   Acceptance:
     cfManifest: manifest.yml
     cfSpace: security
-    testServerUrl: https://spring-echo.cfapps.sap.hana.ondemand.com/
+    testServerUrl: https://spring-echo.cfapps.sap.hana.ondemand.com/health
     deployTool: cf_native
