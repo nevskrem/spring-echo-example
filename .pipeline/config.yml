@@ -13,3 +13,4 @@ stages:
     cfManifest: manifest.yml
     cfSpace: security
     testServerUrl: https://spring-echo.cfapps.sap.hana.ondemand.com/
+    deployTool: cf_native
