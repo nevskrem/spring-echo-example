@@ -4,7 +4,7 @@ void call(Map params) {
     sh "mvn clean package"
     
     sh "mv ./target/spring-echo-example-${params.script.globalPipelineEnvironment.getArtifactVersion()}.jar ./spring-echo-example.jar"
-    stash name: 'buildArtifacts', includes: './spring-echo-example.jar'
+    stash name: 'buildArtifacts', includes: 'spring-echo-example.jar'
     echo "End - Extension for stage: ${params.stageName}"
 }
 return this
