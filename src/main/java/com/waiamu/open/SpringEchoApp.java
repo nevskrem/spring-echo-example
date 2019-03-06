@@ -63,6 +63,6 @@ public class SpringEchoApp {
 		responseMap.put("body", rawBody != null ? Base64.getEncoder().encodeToString(rawBody) : null);
 		LOG.info("REQUEST: " + request.getParameterMap());
 
-		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(responseMap);
+		return ResponseEntity.status(HttpStatus.OK).body(responseMap);
 	}	
 }
