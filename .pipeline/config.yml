@@ -1,0 +1,14 @@
+general:
+  buildTool: maven
+  cfApiEndpoint: https://api.cf.sap.hana.ondemand.com
+  cfCredentialsId: CF_DEPLOYMENT_ICF_SECURITY
+  cfOrg: ICF
+  gitSshKeyCredentialsId: 0710ad53-cdc3-4bc2-814f-65c9be6ce68e
+steps:
+  writeInflux:
+    influxServer: jenkins
+stages:
+  Acceptance:
+    cfManifest: manifest.yml
+    cfSpace: security
+    testServerUrl: https://spring-echo.cfapps.sap.hana.ondemand.com/
