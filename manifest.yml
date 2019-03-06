@@ -1,0 +1,11 @@
+---
+applications:
+
+- name: spring-echo
+  memory: 800M
+  host: spring-echo
+  path: target/com.waiamu.open.spring-echo-example-1.0.0.jar
+  buildpack: java_buildpack
+  timeout: 180
+
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
