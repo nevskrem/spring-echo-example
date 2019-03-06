@@ -2,7 +2,7 @@
 applications:
 
 - name: spring-echo
-  memory: 800M
+  memory: 50M
   host: spring-echo
   path: spring-echo-example.jar
   buildpack: java_buildpack
