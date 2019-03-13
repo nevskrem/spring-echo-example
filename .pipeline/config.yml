@@ -10,6 +10,7 @@ steps:
     influxServer: jenkins
 stages:
   Acceptance:
+    downloadArtifactsFromNexus: false
     cfManifest: manifest.yml
     cfSpace: security
     testServerUrl: https://spring-echo.cfapps.sap.hana.ondemand.com/health
